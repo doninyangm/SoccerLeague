@@ -34,13 +34,13 @@ public class AddLeagueFormServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
             HttpServletResponse response)
             throws IOException {
-        generateView(request, response);
+        this.generateView(request, response);
     }
     
     public void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws IOException {
-        generateView(request, response);
+        this.generateView(request, response);
     }
     
     public void generateView(HttpServletRequest request,
